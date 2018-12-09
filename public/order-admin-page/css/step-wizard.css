@@ -1,0 +1,28 @@
+.wizard li {
+  list-style-type: none;
+}
+
+.wizard-logo li {
+  border: 3px solid #dddddd;
+  border-radius: 50%;
+  margin: 0.5rem auto;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.wizard-logo li button {
+  position: absolute;
+  bottom: -3rem;
+  right: 1rem;
+}
+.wizard-logo li:last-child:after {
+  content: none;
+}
+.wizard li.active {
+  color: green;
+}
+
+.wizard-logo li.active {
+  border-color: green;
+}
